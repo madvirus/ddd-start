@@ -23,6 +23,11 @@ git을 모른다면 우측 상단의 Download ZIP을 클릭해서 코드를 다�
   * 관련 테이블 생성
 * src/sql/init.sql 파일로 예제 실행에 필요한 데이터 초기화
 
+### docker-compose 사용시
+```sh
+docker-compose up
+```
+
 ## JPA 메타모델 생성
 OrderSummary_ 와 같이 이름에 '_'가 포함된 JPA 메타 모델 클래스를 생성하려면 다음 중 한 방법을 사용한다.
 

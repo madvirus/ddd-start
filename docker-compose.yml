@@ -1,0 +1,14 @@
+version: '3.3'
+
+services:
+  db:
+    image: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: "password"
+    volumes:
+      - "./src/sql/ddl.sql:/docker-entrypoint-initdb.d/ddl.sql"
+      - "./src/sql/init.sql:/docker-entrypoint-initdb.d/init.sql"
+      - "./docker-compose-mysql.cnf:/etc/mysql/conf.d/mysql.cnf"
+    ports:
+      - 3306:3306
+    container_name: shop-db

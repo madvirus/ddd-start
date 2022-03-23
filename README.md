@@ -1,3 +1,6 @@
+> DDD START! 재출간판인 **도메인 주도 개발 시작하기** 책의 소스 코드는
+> https://github.com/madvirus/ddd-start2 리포지토리에 확인 가능합니다.
+
 # 예제 안내
 
 ## 준비
